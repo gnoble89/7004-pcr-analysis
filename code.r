@@ -5,7 +5,7 @@ library(ggplot2)
 library(readxl)
 	 
 # Import data from Excel file – format: genes in columns, Ct values listed in rows with HepG2 values listed first followed by CAV1+ values
-data <- read_excel("C:/Users/ganob/OneDrive - Coventry University/MSc Molecular Biology/7004BMS Research Techniques in Molecular Biology/Assessment/qpcr_data_hepg2_cav1.xlsx")
+data <- read_excel("./qpcr_data_hepg2_cav1.xlsx")
 	 
 # Define groups and number of repeats
 groups <- rep(c("HepG2", "CAV1+"), each = 2)
